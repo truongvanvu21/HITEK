@@ -1,0 +1,366 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    position: relative;
+    margin: 20px 38px;
+}
+
+#header .logo {
+
+}
+
+#header .search {
+    display: flex;
+    position: absolute;
+     top: 0;
+     left: 120px;
+}
+
+#header .search .search-list {
+    /* display: flex;
+    justify-content: space-evenly;
+    width: 95vw;
+    height: 50px;
+    list-style: none;
+    text-align: center;
+    line-height: 50px; */
+    display: flex;
+    justify-content: space-between;
+    width: 88vw;
+    height: 50px;
+}
+.search-list .search-tls {
+    display: flex;
+    font-size: 15px;
+    justify-content: space-around;
+    margin-left: 26px;
+    text-align: center;
+    line-height: 50px;
+    list-style: none;
+    font-weight: 600;
+}
+
+.search-list .search-tls li {
+    margin: 0 12px;
+}
+
+.search-list .search-btn {
+    margin-right: 30px;
+    width: 265px;
+    height: 30px;
+    list-style: none;
+    margin-top: 9px;
+    line-height: 30px;
+}
+
+.search-list .search-btn input {
+    border: 1px solid #ddd;
+    width:260px;
+    height: 30px;
+    outline: 0px;
+    color: #ddd;
+}
+
+#header .login {
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    width: 91%;
+}
+
+#header .login .login-list {
+    width: 88vw;
+    height: 80px;
+    margin-left: 40px;
+}
+
+#header .login .login-list-header {
+    display: flex;
+    justify-content: space-between;
+    width: 55vw;
+    list-style: none;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    line-height: 75px;
+}
+
+#header .icon {
+    
+}
+#header .icon .icon-header {
+    display: flex;
+    font-size: 40px;
+    position: absolute;
+    right: 0;
+    list-style: none;
+    color: rgba(256, 256, 256, 0.6);
+    margin-right: 50px;
+    gap: 20px;
+    text-align: center;
+    line-height: 75px;
+}
+
+#pic {
+    margin: 20px 38px;
+}
+
+#pic img {
+    width: 100%;
+}
+
+#para {
+    margin: 20px 38px;
+    position: relative;
+}
+
+#para .para-0{
+    margin-right: 10px;
+}
+
+#para .para-0 img {
+    width: 50%;
+}
+
+#para .text-para0 {
+    width: 460px;
+    position: absolute;
+    left: 2%;
+    top: 420px;
+}
+
+#para .text-para0 p {
+    font-size: 30px;
+    color:#fff;
+    font-weight: 600;
+}
+
+#para .text-para0 .text-time {
+    color: #fff;
+    margin-top: 20px;
+}
+
+#para .para-list {
+
+}
+
+#para .para-1 {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    right: 0;
+    margin-bottom: 20px;
+}
+
+#para .text-para1 {
+    width: 520px;
+    position: absolute;
+    right: 10%;
+    top: 260px;
+}
+
+#para .text-para1 p {
+    font-size: 26px;
+    color:#fff;
+    font-weight: 600;
+}
+
+#para .para-2 {
+    position: absolute;
+    width: 24%;
+    left: 50%;
+    bottom: 1%;
+}
+
+#para .text-para2 {
+    width: 240px;
+    position: absolute;
+    right: 30%;
+    bottom: 2%;
+}
+
+#para .text-para2 p {
+    font-size: 16px;
+    color:#fff;
+    font-weight: 600;
+}
+
+#para .para-3 {
+    position: absolute;
+    width: 24%;
+    right: 0;
+    bottom: 1%;
+}
+
+#para .text-para3 {
+    width: 230px;
+    position: absolute;
+    right: 4%;
+    bottom: 2%;
+}
+
+#para .text-para3 p {
+    font-size: 16px;
+    color:#fff;
+    font-weight: 600;
+}
+
+
+#content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#content .content-pic {
+    margin-left: 38px;
+}
+
+#content .content-new-header {
+    border-bottom: 2px solid orange;
+    width: 80px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: orange;
+}
+
+#content .content-list {
+    display: flex;
+}
+
+#content .content-list img {
+    width: 220px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+#content .text-list {
+    width: 400px;
+    margin-left: 20px;
+}
+
+#content .text-list .text-header {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+#content .text-list .text-time {
+    font-size: 11px;
+    color: rgb(207, 207, 207);
+    margin-bottom: 8px;
+}
+
+#content .text-list .text-dcs {
+    font-size: 14px;
+    color: #acacac
+}
+
+#content .content-post {
+    width: 300px;
+    margin-right: 144px;
+}
+
+#content .content-post-header {
+    border-bottom: 2px solid orange;
+    width: 180px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: orange;
+}
+
+#content .post-list {
+    width: 400px;
+    font-size: 16px;
+}
+
+#content .post-list .post-text {
+    margin-bottom: 30px;
+}
+
+#content .post-list .post-img {
+
+}
+
+#content .post-img img {
+    width: 250px;
+}
+
+#button .button-logic {
+    font-size: 16px;
+    width: 120px;
+    height: 40px;
+    color: #9b9b9b;
+    margin: 30px 0;
+    margin-left: 600px;
+}
+
+#footer {
+    margin-top: 10px;
+    background-color: #494949;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    height: 300px;
+}
+#footer .footer-text {
+    margin: 60px 80px;
+    width: 740px;
+}
+
+#footer .text-header {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+#footer .text-content {
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-weight: 100;
+    
+}
+
+#footer .text-mail {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+#footer .footer-login {
+    margin: 60px 100px;
+    width: 400px;
+}
+
+#footer .login-text {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+#footer .login-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-list div {
+    width: 50px 50px;
+
+}
+
+.login-list i {
+    font-size: 16px;
+    background-color: #494949;
+    color: #fff;
+    border: 1px solid rgba(148, 148, 148, 0.867);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
